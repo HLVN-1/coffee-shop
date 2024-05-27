@@ -17,12 +17,12 @@ function App() {
 
   return (
     <Router>
-      <NavBar setShowAboutUs={setShowAboutUs} />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/about-us" element={<AboutUs />} /> */}
         {/* Route to Home component */}
-        {showAboutUs && <Route path="/about-us" element={<AboutUs />} />} {/* Route to AboutUs component if showAboutUs is true */}
+        <Route path="/about-us" element={<AboutUs />} /> {/* Route to AboutUs component if showAboutUs is true */}
         {/* Add more routes as needed */}
       </Routes>
     <>
