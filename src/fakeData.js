@@ -9,9 +9,9 @@ export const fakeMenuItems = [
 
 export const fakeMerchItems = [
     { id: 1, item: "Black Coffee 160z Bag", price: 8, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/16ozBagBlackCoffee.jpeg?raw=true' },
-    { id: 2, item: "Stanley Cup", price: 28, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/tumbler.png?raw=true' },
-    { id: 3, item: "Ceramic Cup", price: 6, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/mug.png?raw=true' },
-    { id: 4, item: "Logo Hat", price: 12, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/trucker_hat.png?raw=true' },
-    { id: 5, item: "Logo Tshirt", price: 19, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/tshirt.jpeg?raw=true' },
-    { id: 6, item: "Coffee Calendar", price: 3, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/calendar.jpeg?raw=true' }
+    { id: 8, item: "Stanley Cup", price: 28, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/tumbler.png?raw=true' },
+    { id: 9, item: "Ceramic Cup", price: 6, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/mug.png?raw=true' },
+    { id: 10, item: "Logo Hat", price: 12, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/trucker_hat.png?raw=true' },
+    { id: 11, item: "Logo Tshirt", price: 19, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/tshirt.jpeg?raw=true' },
+    { id: 12, item: "Coffee Calendar", price: 3, image: 'https://github.com/bryanrigsby/imagesForCoffeeShopSite/blob/main/calendar.jpeg?raw=true' }
 ]

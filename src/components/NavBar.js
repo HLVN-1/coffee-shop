@@ -1,9 +1,10 @@
 import React from "react";
+import './NavBar.css'
 import { Link } from "react-router-dom";
 // import { Route, Router } from "react-router-dom";
 
 
-const NavBar = ({ setShowAboutUs }) => {
+const NavBar = ({ setShowAboutUs, toggleCartVisibility}) => {
     return (
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
@@ -29,6 +30,9 @@ const NavBar = ({ setShowAboutUs }) => {
             <li><hr className="dropdown-divider" /></li>
             <li><a className="dropdown-item" href="#">Merch</a></li>
           </ul>
+          <li className="nav-item">
+            <button onClick={toggleCartVisibility} >Cart</button>
+          </li>
         </li>
         {/* <li className="nav-item">
           <a className="nav-link disabled" aria-disabled="true">Disabled</a>

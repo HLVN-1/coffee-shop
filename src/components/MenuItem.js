@@ -1,6 +1,10 @@
 import React from 'react'
 
-export default function MenuItem({image, altText, price, item}) {
+export default function MenuItem({updateShoppingCart, image, altText, price, item, id}) {
+function addToCart() {
+    updateShoppingCart(id)
+    // console.log('clicked', id)
+}
   return (
         <div className="col-4">
             <div className="card mb-3" style={{maxWidth: "540px"}}>
@@ -12,6 +16,7 @@ export default function MenuItem({image, altText, price, item}) {
                         <div className="card-body">     
                             <h5 className="card-title">{item}</h5>
                             <p className="card-text"><small className="text-body-secondary">{`$${price}`}</small></p>
+                            <button onClick={addToCart}>Add to Cart</button>
                         </div>
                     </div>
                 </div>
